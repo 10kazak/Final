@@ -17,7 +17,8 @@ int a1, a2, a3;
 printf("¬ведите символ: ");
 scanf("%c", &simvol);
 fflush(stdin);
-
+if simvol > 0//проверка на положительность 
+	
 printf("¬ведите свое им€: ");
 fgets(str, max, stdin);
 
