@@ -11,17 +11,17 @@ int main()
 setlocale(LC_ALL,"Russian");
 char simvol;
 char str[max];
-float b1, b2;
+float b1, b2;//нужны дл€ вывода
 int a1, a2, a3;
 
-printf("¬ведите символ: ");
+printf("¬ведите символ: \n");
 scanf("%c", &simvol);
 fflush(stdin);
 
-printf("¬ведите свое им€: ");
+printf("¬ведите свое им€: \n");
 fgets(str, max, stdin);
 
-printf("¬ведите 2 числа: ");
+printf("¬ведите 2 числа: \n");
 scanf("%d %d", &a1, &a2);
 
 printf ("¬ведите 2 числа c плавующей точкой: ");
