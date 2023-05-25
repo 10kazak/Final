@@ -12,7 +12,7 @@ setlocale(LC_ALL,"Russian");
 char simvol;
 char str[max];
 float b1, b2;
-int a1, a2, a3;
+int a5, a2, a3;
 
 printf("Введите символ: ");
 scanf("%c", &simvol);
